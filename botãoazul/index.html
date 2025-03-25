@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão azul</title>
+    <style>
+        body{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body id="b">
+   <input type="button" value="clicar">
+</body>
+<script>
+    var b = window.document.getElementById('b')
+
+    b.addEventListener ('click', clicar)
+
+    function clicar(){
+        b.innerText = 'clicar'
+        b.style.background = 'blue'
+    }
+</script>
+</html>
