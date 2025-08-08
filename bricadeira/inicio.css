@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+:root{
+    --principal: #7478A0;
+    --subcor :#B5BBF5; 
+    --fundo:#DFF5D3; 
+    --opcinal: #6D787A;
+
+    background-color: var(--fundo);
+
+    padding: 0%; 
+    margin: 0%;
+}
+
+header{
+    padding: 0px;
+    background-color: var(--principal);
+    margin: 0%;
+}
+
+nav{
+
+}
+
+main{
+    height: 97%;
+    font-size: 22px;
+}
+
+footer{
+    text-align: center;
+    background-color: var(--principal);
+}
